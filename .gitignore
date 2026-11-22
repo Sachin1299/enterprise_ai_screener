@@ -1,0 +1,39 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data & Vector DB persistence
+data/
+chroma_db/
+*.sqlite
+*.sqlite3
+*.db
+
+# Antigravity & IDE metadata
+.antigravity/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
