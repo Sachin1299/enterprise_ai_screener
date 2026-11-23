@@ -66,3 +66,4 @@ class JobIngestRequest(BaseModel):
     raw_text: Optional[str] = Field(default=None, description="Raw job description text or markdown")
     url: Optional[str] = Field(default=None, description="Public job posting URL (e.g. LinkedIn, Greenhouse)")
     structured_spec: Optional[JobSpecification] = Field(default=None, description="Direct structured job specification")
+

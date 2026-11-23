@@ -72,3 +72,4 @@ class ScreeningResult(BaseModel):
     action_justification: str
     citations_summary: List[PageCitation] = Field(default_factory=list)
     screened_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+

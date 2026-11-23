@@ -55,3 +55,4 @@ def test_health_check_endpoint(client):
     data = response.json()
     assert data["status"] == "healthy"
     assert "gemini_configured" in data
+

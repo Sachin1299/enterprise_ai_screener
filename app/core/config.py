@@ -64,3 +64,4 @@ def get_settings() -> Settings:
     Ensures .env is read and validated once rather than on every request.
     """
     return Settings()
+
